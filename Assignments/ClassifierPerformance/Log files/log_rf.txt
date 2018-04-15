@@ -1,0 +1,78 @@
+-----------Random Forest---------
+***** Random Search *****
+Cross-Validation:10 and number of iterations:30
+# Tuning hyper-parameters for accuracy
+
+Best parameters and scores set found on development set:
+{'random_state': None, 'n_estimators': 40, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': False}
+0.956018518519
+
+Random scores on development set:
+0.942 (+/-0.038) for {'random_state': 30, 'n_estimators': 20, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': True}
+0.953 (+/-0.030) for {'random_state': None, 'n_estimators': 20, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': True}
+0.917 (+/-0.030) for {'random_state': 10, 'n_estimators': 10, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': True}
+0.954 (+/-0.036) for {'random_state': 10, 'n_estimators': 30, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': False}
+0.931 (+/-0.036) for {'random_state': None, 'n_estimators': 10, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': True}
+0.946 (+/-0.030) for {'random_state': None, 'n_estimators': 10, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': False}
+0.954 (+/-0.028) for {'random_state': None, 'n_estimators': 30, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': True}
+0.934 (+/-0.031) for {'random_state': 30, 'n_estimators': 10, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': True}
+0.940 (+/-0.031) for {'random_state': 10, 'n_estimators': 10, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': False}
+0.949 (+/-0.035) for {'random_state': 10, 'n_estimators': 20, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': False}
+0.949 (+/-0.041) for {'random_state': None, 'n_estimators': 30, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': False}
+0.938 (+/-0.040) for {'random_state': 30, 'n_estimators': 10, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': True}
+0.947 (+/-0.037) for {'random_state': 10, 'n_estimators': 30, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': True}
+0.954 (+/-0.034) for {'random_state': None, 'n_estimators': 40, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': True}
+0.953 (+/-0.025) for {'random_state': None, 'n_estimators': 40, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': True}
+0.949 (+/-0.041) for {'random_state': 30, 'n_estimators': 30, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': False}
+0.924 (+/-0.039) for {'random_state': None, 'n_estimators': 10, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': True}
+0.953 (+/-0.025) for {'random_state': 30, 'n_estimators': 30, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': True}
+0.947 (+/-0.037) for {'random_state': 10, 'n_estimators': 30, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': True}
+0.942 (+/-0.031) for {'random_state': 10, 'n_estimators': 10, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': False}
+0.951 (+/-0.029) for {'random_state': 30, 'n_estimators': 40, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': True}
+0.951 (+/-0.041) for {'random_state': None, 'n_estimators': 40, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': True}
+0.952 (+/-0.041) for {'random_state': 10, 'n_estimators': 40, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': True}
+0.948 (+/-0.040) for {'random_state': 30, 'n_estimators': 20, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': True}
+0.945 (+/-0.033) for {'random_state': 30, 'n_estimators': 30, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': True}
+0.953 (+/-0.034) for {'random_state': None, 'n_estimators': 20, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': False}
+0.945 (+/-0.034) for {'random_state': 10, 'n_estimators': 20, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': True}
+0.940 (+/-0.031) for {'random_state': 10, 'n_estimators': 10, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': False}
+0.956 (+/-0.033) for {'random_state': None, 'n_estimators': 40, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': False}
+0.950 (+/-0.032) for {'random_state': 10, 'n_estimators': 30, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': False}
+
+# Tuning hyper-parameters for precision
+
+Best parameters and scores set found on development set:
+{'random_state': None, 'n_estimators': 40, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': False}
+0.959104938272
+
+Random scores on development set:
+0.953 (+/-0.025) for {'random_state': 30, 'n_estimators': 30, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': True}
+0.948 (+/-0.030) for {'random_state': None, 'n_estimators': 30, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': True}
+0.951 (+/-0.029) for {'random_state': 30, 'n_estimators': 40, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': True}
+0.948 (+/-0.035) for {'random_state': 30, 'n_estimators': 20, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': False}
+0.950 (+/-0.032) for {'random_state': 10, 'n_estimators': 30, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': False}
+0.951 (+/-0.040) for {'random_state': 30, 'n_estimators': 10, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': False}
+0.923 (+/-0.043) for {'random_state': None, 'n_estimators': 10, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': True}
+0.948 (+/-0.040) for {'random_state': 30, 'n_estimators': 20, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': True}
+0.951 (+/-0.040) for {'random_state': 30, 'n_estimators': 10, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': False}
+0.952 (+/-0.039) for {'random_state': None, 'n_estimators': 40, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': False}
+0.958 (+/-0.035) for {'random_state': None, 'n_estimators': 40, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': False}
+0.959 (+/-0.023) for {'random_state': None, 'n_estimators': 40, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': False}
+0.954 (+/-0.022) for {'random_state': None, 'n_estimators': 40, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': True}
+0.953 (+/-0.040) for {'random_state': None, 'n_estimators': 30, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': False}
+0.945 (+/-0.033) for {'random_state': 30, 'n_estimators': 30, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': True}
+0.942 (+/-0.031) for {'random_state': 10, 'n_estimators': 10, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': False}
+0.954 (+/-0.030) for {'random_state': 10, 'n_estimators': 40, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': True}
+0.917 (+/-0.030) for {'random_state': 10, 'n_estimators': 10, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': True}
+0.949 (+/-0.035) for {'random_state': 10, 'n_estimators': 20, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': False}
+0.954 (+/-0.043) for {'random_state': 30, 'n_estimators': 40, 'max_features': 'log2', 'criterion': 'entropy', 'bootstrap': False}
+0.954 (+/-0.043) for {'random_state': 30, 'n_estimators': 40, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': False}
+0.954 (+/-0.030) for {'random_state': 30, 'n_estimators': 40, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': False}
+0.951 (+/-0.042) for {'random_state': 10, 'n_estimators': 40, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': False}
+0.946 (+/-0.044) for {'random_state': None, 'n_estimators': 20, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': False}
+0.950 (+/-0.047) for {'random_state': None, 'n_estimators': 30, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': True}
+0.948 (+/-0.035) for {'random_state': 30, 'n_estimators': 20, 'max_features': 'log2', 'criterion': 'gini', 'bootstrap': False}
+0.939 (+/-0.026) for {'random_state': None, 'n_estimators': 10, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': False}
+0.954 (+/-0.050) for {'random_state': 30, 'n_estimators': 30, 'max_features': 'sqrt', 'criterion': 'entropy', 'bootstrap': False}
+0.938 (+/-0.040) for {'random_state': 30, 'n_estimators': 10, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': True}
+0.949 (+/-0.041) for {'random_state': 30, 'n_estimators': 30, 'max_features': 'sqrt', 'criterion': 'gini', 'bootstrap': False}

@@ -1,0 +1,98 @@
+-----------Naive Bayes---------
+***** Random Search *****
+Cross-Validation:10 and number of iterations:40
+# Tuning hyper-parameters for accuracy
+
+Best parameters and scores set found on development set:
+{'fit_prior': True, 'binarize': 0.0, 'alpha': 0.5}
+0.871141975309
+
+Random scores on development set:
+0.871 (+/-0.064) for {'fit_prior': True, 'binarize': 0.0, 'alpha': 0.5}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 5.0, 'alpha': 5.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 1.0, 'alpha': 0.5}
+0.851 (+/-0.051) for {'fit_prior': True, 'binarize': 0.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 2.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 1.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 2.0, 'alpha': 10.0}
+0.870 (+/-0.067) for {'fit_prior': True, 'binarize': 0.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 10.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 5.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 5.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 5.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 1.0, 'alpha': 3.0}
+0.861 (+/-0.057) for {'fit_prior': True, 'binarize': 0.0, 'alpha': 5.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 2.0, 'alpha': 5.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 10.0, 'alpha': 0.5}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 1.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 1.0, 'alpha': 5.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 10.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 10.0, 'alpha': 5.0}
+0.675 (+/-0.100) for {'fit_prior': False, 'binarize': 0.0, 'alpha': 10.0}
+0.774 (+/-0.089) for {'fit_prior': False, 'binarize': 0.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 10.0, 'alpha': 5.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 2.0, 'alpha': 5.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 10.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 5.0, 'alpha': 1.0}
+0.796 (+/-0.092) for {'fit_prior': False, 'binarize': 0.0, 'alpha': 0.5}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 2.0, 'alpha': 0.5}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 10.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 1.0, 'alpha': 0.5}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 1.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 10.0, 'alpha': 10.0}
+0.863 (+/-0.061) for {'fit_prior': True, 'binarize': 0.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 5.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 5.0, 'alpha': 0.5}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 2.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 2.0, 'alpha': 1.0}
+0.728 (+/-0.098) for {'fit_prior': False, 'binarize': 0.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 10.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 2.0, 'alpha': 3.0}
+
+# Tuning hyper-parameters for precision
+
+Best parameters and scores set found on development set:
+{'fit_prior': True, 'binarize': 0.0, 'alpha': 0.5}
+0.871141975309
+
+Random scores on development set:
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 2.0, 'alpha': 0.5}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 5.0, 'alpha': 0.5}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 1.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 2.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 1.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 5.0, 'alpha': 5.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 10.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 10.0, 'alpha': 5.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 10.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 10.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 2.0, 'alpha': 5.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 10.0, 'alpha': 1.0}
+0.774 (+/-0.089) for {'fit_prior': False, 'binarize': 0.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 5.0, 'alpha': 3.0}
+0.863 (+/-0.061) for {'fit_prior': True, 'binarize': 0.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 5.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 5.0, 'alpha': 0.5}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 2.0, 'alpha': 5.0}
+0.796 (+/-0.092) for {'fit_prior': False, 'binarize': 0.0, 'alpha': 0.5}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 2.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 2.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 1.0, 'alpha': 5.0}
+0.675 (+/-0.100) for {'fit_prior': False, 'binarize': 0.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 5.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 10.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 5.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 5.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 2.0, 'alpha': 3.0}
+0.861 (+/-0.057) for {'fit_prior': True, 'binarize': 0.0, 'alpha': 5.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 1.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 1.0, 'alpha': 5.0}
+0.870 (+/-0.067) for {'fit_prior': True, 'binarize': 0.0, 'alpha': 1.0}
+0.871 (+/-0.064) for {'fit_prior': True, 'binarize': 0.0, 'alpha': 0.5}
+0.851 (+/-0.051) for {'fit_prior': True, 'binarize': 0.0, 'alpha': 10.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 1.0, 'alpha': 0.5}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 1.0, 'alpha': 3.0}
+0.694 (+/-0.007) for {'fit_prior': False, 'binarize': 10.0, 'alpha': 5.0}
+0.700 (+/-0.091) for {'fit_prior': False, 'binarize': 0.0, 'alpha': 5.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 5.0, 'alpha': 1.0}
+0.694 (+/-0.007) for {'fit_prior': True, 'binarize': 1.0, 'alpha': 0.5}

@@ -1,0 +1,137 @@
+------------------ Logistic Regression -------------------
+***** Random Search *****
+Cross-Validation:10 and number of iterations:50
+# Tuning hyper-parameters for accuracy
+
+Best parameters and scores set found on development set:
+{'C': 10, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'lbfgs', 'warm_start': True, 'penalty': 'l2', 'max_iter': 400}
+0.941358024691
+
+Random scores on development set:
+0.895 (+/-0.037) for {'C': 0.5, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': True, 'penalty': 'l2', 'max_iter': 200}
+0.910 (+/-0.036) for {'C': 1, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'lbfgs', 'warm_start': True, 'penalty': 'l2', 'max_iter': 200}
+0.888 (+/-0.039) for {'C': 5, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'lbfgs', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.909 (+/-0.039) for {'C': 1, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': True, 'penalty': 'l2', 'max_iter': 200}
+0.938 (+/-0.040) for {'C': 100, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'lbfgs', 'warm_start': True, 'penalty': 'l2', 'max_iter': 500}
+0.891 (+/-0.045) for {'C': 100, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'sag', 'warm_start': True, 'penalty': 'l2', 'max_iter': 100}
+0.924 (+/-0.057) for {'C': 10, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': True, 'penalty': 'l2', 'max_iter': 300}
+0.867 (+/-0.039) for {'C': 0.5, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'newton-cg', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.910 (+/-0.036) for {'C': 1, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'lbfgs', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.899 (+/-0.038) for {'C': 0.5, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'newton-cg', 'warm_start': True, 'penalty': 'l2', 'max_iter': 400}
+0.933 (+/-0.034) for {'C': 5, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'lbfgs', 'warm_start': True, 'penalty': 'l2', 'max_iter': 200}
+0.899 (+/-0.038) for {'C': 0.5, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.874 (+/-0.045) for {'C': 1, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'newton-cg', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.941 (+/-0.036) for {'C': 10, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'lbfgs', 'warm_start': True, 'penalty': 'l2', 'max_iter': 400}
+0.933 (+/-0.029) for {'C': 5, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'lbfgs', 'warm_start': True, 'penalty': 'l2', 'max_iter': 300}
+0.868 (+/-0.039) for {'C': 0.5, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'newton-cg', 'warm_start': True, 'penalty': 'l2', 'max_iter': 500}
+0.874 (+/-0.045) for {'C': 1, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'newton-cg', 'warm_start': True, 'penalty': 'l2', 'max_iter': 200}
+0.892 (+/-0.044) for {'C': 100, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'sag', 'warm_start': False, 'penalty': 'l2', 'max_iter': 500}
+0.933 (+/-0.029) for {'C': 5, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'newton-cg', 'warm_start': True, 'penalty': 'l2', 'max_iter': 100}
+0.909 (+/-0.039) for {'C': 1, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': False, 'penalty': 'l2', 'max_iter': 400}
+0.891 (+/-0.045) for {'C': 100, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'sag', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.895 (+/-0.037) for {'C': 0.5, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': False, 'penalty': 'l2', 'max_iter': 300}
+0.889 (+/-0.043) for {'C': 10, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'lbfgs', 'warm_start': False, 'penalty': 'l2', 'max_iter': 300}
+0.888 (+/-0.039) for {'C': 5, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'newton-cg', 'warm_start': True, 'penalty': 'l2', 'max_iter': 200}
+0.888 (+/-0.036) for {'C': 5, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'lbfgs', 'warm_start': True, 'penalty': 'l2', 'max_iter': 100}
+0.909 (+/-0.039) for {'C': 1, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'newton-cg', 'warm_start': True, 'penalty': 'l2', 'max_iter': 400}
+0.889 (+/-0.043) for {'C': 10, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'lbfgs', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.899 (+/-0.038) for {'C': 0.5, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'newton-cg', 'warm_start': False, 'penalty': 'l2', 'max_iter': 400}
+0.888 (+/-0.039) for {'C': 5, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'sag', 'warm_start': False, 'penalty': 'l2', 'max_iter': 300}
+0.891 (+/-0.045) for {'C': 100, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'lbfgs', 'warm_start': True, 'penalty': 'l2', 'max_iter': 400}
+0.909 (+/-0.039) for {'C': 1, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.909 (+/-0.039) for {'C': 1, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': True, 'penalty': 'l2', 'max_iter': 300}
+0.888 (+/-0.036) for {'C': 5, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'lbfgs', 'warm_start': True, 'penalty': 'l2', 'max_iter': 300}
+0.919 (+/-0.034) for {'C': 10, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': False, 'penalty': 'l2', 'max_iter': 500}
+0.907 (+/-0.054) for {'C': 10, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': True, 'penalty': 'l2', 'max_iter': 300}
+0.913 (+/-0.041) for {'C': 10, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': False, 'penalty': 'l2', 'max_iter': 400}
+0.891 (+/-0.045) for {'C': 100, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'sag', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.892 (+/-0.044) for {'C': 100, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'lbfgs', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.888 (+/-0.039) for {'C': 5, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'lbfgs', 'warm_start': False, 'penalty': 'l2', 'max_iter': 200}
+0.938 (+/-0.040) for {'C': 100, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'lbfgs', 'warm_start': False, 'penalty': 'l2', 'max_iter': 400}
+0.910 (+/-0.036) for {'C': 1, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'newton-cg', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.891 (+/-0.045) for {'C': 100, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'lbfgs', 'warm_start': False, 'penalty': 'l2', 'max_iter': 400}
+0.867 (+/-0.039) for {'C': 0.5, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'lbfgs', 'warm_start': False, 'penalty': 'l2', 'max_iter': 400}
+0.895 (+/-0.037) for {'C': 0.5, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'lbfgs', 'warm_start': True, 'penalty': 'l2', 'max_iter': 400}
+0.868 (+/-0.039) for {'C': 0.5, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'newton-cg', 'warm_start': False, 'penalty': 'l2', 'max_iter': 200}
+0.928 (+/-0.046) for {'C': 100, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': True, 'penalty': 'l2', 'max_iter': 400}
+0.939 (+/-0.037) for {'C': 10, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'lbfgs', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.899 (+/-0.038) for {'C': 0.5, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'newton-cg', 'warm_start': True, 'penalty': 'l2', 'max_iter': 100}
+0.939 (+/-0.042) for {'C': 100, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'newton-cg', 'warm_start': False, 'penalty': 'l2', 'max_iter': 500}
+0.895 (+/-0.037) for {'C': 0.5, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': True, 'penalty': 'l2', 'max_iter': 300}
+0.891 (+/-0.045) for {'C': 100, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'newton-cg', 'warm_start': True, 'penalty': 'l2', 'max_iter': 100}
+0.892 (+/-0.044) for {'C': 100, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'newton-cg', 'warm_start': True, 'penalty': 'l2', 'max_iter': 400}
+0.910 (+/-0.036) for {'C': 1, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': False, 'penalty': 'l2', 'max_iter': 100}
+0.895 (+/-0.037) for {'C': 0.5, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'newton-cg', 'warm_start': False, 'penalty': 'l2', 'max_iter': 400}
+0.867 (+/-0.039) for {'C': 0.5, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'newton-cg', 'warm_start': False, 'penalty': 'l2', 'max_iter': 500}
+0.909 (+/-0.039) for {'C': 1, 'fit_intercept': True, 'multi_class': 'multinomial', 'solver': 'sag', 'warm_start': True, 'penalty': 'l2', 'max_iter': 500}
+0.910 (+/-0.036) for {'C': 1, 'fit_intercept': False, 'multi_class': 'multinomial', 'solver': 'newton-cg', 'warm_start': True, 'penalty': 'l2', 'max_iter': 200}
+0.889 (+/-0.043) for {'C': 10, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'lbfgs', 'warm_start': True, 'penalty': 'l2', 'max_iter': 100}
+0.889 (+/-0.043) for {'C': 10, 'fit_intercept': True, 'multi_class': 'ovr', 'solver': 'newton-cg', 'warm_start': False, 'penalty': 'l2', 'max_iter': 500}
+0.868 (+/-0.039) for {'C': 0.5, 'fit_intercept': False, 'multi_class': 'ovr', 'solver': 'sag', 'warm_start': True, 'penalty': 'l2', 'max_iter': 300}
+
+
+Best parameters and scores set found on development set:
+{'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 200, 'fit_intercept': True}
+0.890432098765
+
+Random scores on development set:
+0.890 (+/-0.058) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 200, 'fit_intercept': True}
+0.890 (+/-0.055) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 300, 'fit_intercept': True}
+0.890 (+/-0.058) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 300, 'fit_intercept': False}
+0.890 (+/-0.055) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 300, 'fit_intercept': False}
+0.890 (+/-0.058) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 300, 'fit_intercept': False}
+0.889 (+/-0.054) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 100, 'max_iter': 400, 'fit_intercept': True}
+0.890 (+/-0.059) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 400, 'fit_intercept': True}
+0.889 (+/-0.062) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 1, 'max_iter': 300, 'fit_intercept': True}
+0.890 (+/-0.054) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 100, 'fit_intercept': True}
+0.889 (+/-0.054) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 100, 'max_iter': 300, 'fit_intercept': False}
+0.890 (+/-0.058) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 400, 'fit_intercept': True}
+0.890 (+/-0.055) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 100, 'fit_intercept': True}
+0.890 (+/-0.058) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 100, 'fit_intercept': True}
+0.887 (+/-0.060) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 1, 'max_iter': 300, 'fit_intercept': False}
+0.890 (+/-0.058) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 300, 'fit_intercept': True}
+0.887 (+/-0.060) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 1, 'max_iter': 400, 'fit_intercept': False}
+0.889 (+/-0.054) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 100, 'max_iter': 100, 'fit_intercept': False}
+0.890 (+/-0.055) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 400, 'fit_intercept': False}
+0.889 (+/-0.063) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 1, 'max_iter': 100, 'fit_intercept': True}
+0.887 (+/-0.060) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 1, 'max_iter': 200, 'fit_intercept': False}
+0.890 (+/-0.051) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 100, 'max_iter': 100, 'fit_intercept': True}
+0.876 (+/-0.061) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 300, 'fit_intercept': True}
+0.890 (+/-0.053) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 100, 'max_iter': 300, 'fit_intercept': True}
+0.890 (+/-0.055) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 400, 'fit_intercept': True}
+0.890 (+/-0.055) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 100, 'fit_intercept': False}
+0.887 (+/-0.060) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 1, 'max_iter': 200, 'fit_intercept': False}
+0.889 (+/-0.054) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 100, 'max_iter': 400, 'fit_intercept': False}
+0.889 (+/-0.054) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 100, 'max_iter': 200, 'fit_intercept': False}
+0.890 (+/-0.058) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 100, 'fit_intercept': True}
+0.871 (+/-0.057) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 200, 'fit_intercept': False}
+0.890 (+/-0.055) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 100, 'fit_intercept': False}
+0.876 (+/-0.061) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 200, 'fit_intercept': True}
+0.890 (+/-0.055) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 200, 'fit_intercept': True}
+0.890 (+/-0.058) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 200, 'fit_intercept': False}
+0.890 (+/-0.053) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 100, 'max_iter': 200, 'fit_intercept': False}
+0.889 (+/-0.063) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 1, 'max_iter': 400, 'fit_intercept': True}
+0.889 (+/-0.054) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 100, 'max_iter': 400, 'fit_intercept': True}
+0.889 (+/-0.062) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 1, 'max_iter': 200, 'fit_intercept': True}
+0.871 (+/-0.057) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 200, 'fit_intercept': False}
+0.871 (+/-0.057) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 300, 'fit_intercept': False}
+0.890 (+/-0.054) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 400, 'fit_intercept': True}
+0.890 (+/-0.058) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 300, 'fit_intercept': True}
+0.887 (+/-0.060) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 1, 'max_iter': 400, 'fit_intercept': False}
+0.873 (+/-0.060) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 300, 'fit_intercept': True}
+0.890 (+/-0.058) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 200, 'fit_intercept': False}
+0.889 (+/-0.054) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 100, 'max_iter': 200, 'fit_intercept': True}
+0.871 (+/-0.057) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 300, 'fit_intercept': False}
+0.871 (+/-0.057) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 100, 'fit_intercept': False}
+0.890 (+/-0.055) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 300, 'fit_intercept': True}
+0.873 (+/-0.060) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 400, 'fit_intercept': True}
+0.887 (+/-0.060) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 1, 'max_iter': 100, 'fit_intercept': False}
+0.876 (+/-0.061) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 400, 'fit_intercept': True}
+0.890 (+/-0.055) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 200, 'fit_intercept': True}
+0.890 (+/-0.058) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 100, 'fit_intercept': False}
+0.871 (+/-0.057) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 400, 'fit_intercept': False}
+0.890 (+/-0.051) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 100, 'max_iter': 100, 'fit_intercept': False}
+0.889 (+/-0.062) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 1, 'max_iter': 400, 'fit_intercept': True}
+0.871 (+/-0.057) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 0.5, 'max_iter': 100, 'fit_intercept': False}
+0.890 (+/-0.055) for {'solver': 'liblinear', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 10, 'max_iter': 200, 'fit_intercept': False}
+0.890 (+/-0.058) for {'solver': 'saga', 'penalty': 'l1', 'multi_class': 'ovr', 'C': 5, 'max_iter': 200, 'fit_intercept': True}

@@ -1,0 +1,241 @@
+------------------ AdaBoost Classifier -------------------
+***** Grid Search *****
+Cross-Validation:  10
+# Tuning hyper-parameters for accuracy
+
+Best parameters and scores set found on development set:
+{'algorithm': 'SAMME.R', 'n_estimators': 100, 'learning_rate': 1.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.969907407407
+
+Grid scores on development set:
+0.965 (+/-0.033) for {'algorithm': 'SAMME.R', 'n_estimators': 50, 'learning_rate': 0.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.965 (+/-0.036) for {'algorithm': 'SAMME.R', 'n_estimators': 100, 'learning_rate': 0.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.962 (+/-0.039) for {'algorithm': 'SAMME.R', 'n_estimators': 150, 'learning_rate': 0.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.967 (+/-0.031) for {'algorithm': 'SAMME.R', 'n_estimators': 50, 'learning_rate': 1.0, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.965 (+/-0.032) for {'algorithm': 'SAMME.R', 'n_estimators': 100, 'learning_rate': 1.0, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.965 (+/-0.035) for {'algorithm': 'SAMME.R', 'n_estimators': 150, 'learning_rate': 1.0, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.969 (+/-0.029) for {'algorithm': 'SAMME.R', 'n_estimators': 50, 'learning_rate': 1.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.970 (+/-0.033) for {'algorithm': 'SAMME.R', 'n_estimators': 100, 'learning_rate': 1.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.966 (+/-0.032) for {'algorithm': 'SAMME.R', 'n_estimators': 150, 'learning_rate': 1.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.965 (+/-0.038) for {'algorithm': 'SAMME', 'n_estimators': 50, 'learning_rate': 0.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.965 (+/-0.029) for {'algorithm': 'SAMME', 'n_estimators': 100, 'learning_rate': 0.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.970 (+/-0.030) for {'algorithm': 'SAMME', 'n_estimators': 150, 'learning_rate': 0.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.968 (+/-0.023) for {'algorithm': 'SAMME', 'n_estimators': 50, 'learning_rate': 1.0, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.968 (+/-0.031) for {'algorithm': 'SAMME', 'n_estimators': 100, 'learning_rate': 1.0, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.965 (+/-0.041) for {'algorithm': 'SAMME', 'n_estimators': 150, 'learning_rate': 1.0, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.968 (+/-0.025) for {'algorithm': 'SAMME', 'n_estimators': 50, 'learning_rate': 1.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.968 (+/-0.032) for {'algorithm': 'SAMME', 'n_estimators': 100, 'learning_rate': 1.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+0.965 (+/-0.037) for {'algorithm': 'SAMME', 'n_estimators': 150, 'learning_rate': 1.5, 'base_estimator': DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')}
+
+
+
+
+            ------------------ AdaBoost Classifier -------------------
+            ***** Grid Search *****
+            Cross-Validation:  10
+            # Tuning hyper-parameters for accuracy
+
+            Best parameters and scores set found on development set:
+            {'learning_rate': 0.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME', 'n_estimators': 50}
+            0.875
+
+            Grid scores on development set:
+            0.833 (+/-0.026) for {'learning_rate': 0.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME.R', 'n_estimators': 50}
+            0.818 (+/-0.028) for {'learning_rate': 0.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME.R', 'n_estimators': 100}
+            0.822 (+/-0.030) for {'learning_rate': 0.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME.R', 'n_estimators': 150}
+            0.818 (+/-0.028) for {'learning_rate': 1.0, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME.R', 'n_estimators': 50}
+            0.829 (+/-0.033) for {'learning_rate': 1.0, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME.R', 'n_estimators': 100}
+            0.838 (+/-0.029) for {'learning_rate': 1.0, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME.R', 'n_estimators': 150}
+            0.821 (+/-0.030) for {'learning_rate': 1.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME.R', 'n_estimators': 50}
+            0.838 (+/-0.029) for {'learning_rate': 1.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME.R', 'n_estimators': 100}
+            0.850 (+/-0.021) for {'learning_rate': 1.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME.R', 'n_estimators': 150}
+            0.875 (+/-0.037) for {'learning_rate': 0.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME', 'n_estimators': 50}
+            0.867 (+/-0.050) for {'learning_rate': 0.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME', 'n_estimators': 100}
+            0.870 (+/-0.055) for {'learning_rate': 0.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME', 'n_estimators': 150}
+            0.850 (+/-0.082) for {'learning_rate': 1.0, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME', 'n_estimators': 50}
+            0.870 (+/-0.030) for {'learning_rate': 1.0, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME', 'n_estimators': 100}
+            0.860 (+/-0.048) for {'learning_rate': 1.0, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME', 'n_estimators': 150}
+            0.809 (+/-0.046) for {'learning_rate': 1.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME', 'n_estimators': 50}
+            0.824 (+/-0.047) for {'learning_rate': 1.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'algorithm': 'SAMME', 'n_estimators': 100}
+            0.822 (+/-0.038) for {'learning_rate': 1.5, 'base_estimator': MultinomialNB(alpha=1.0, class_prior=None, fit_prior=True), 'a
+
+            ------------------ AdaBoost Classifier -------------------
+***** Grid Search *****
+Cross-Validation:  10
+# Tuning hyper-parameters for accuracy
+
+Best parameters and scores set found on development set:
+{'n_estimators': 50, 'algorithm': 'SAMME', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 0.5}
+0.87037037037
+
+Grid scores on development set:
+0.830 (+/-0.072) for {'n_estimators': 50, 'algorithm': 'SAMME.R', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 0.5}
+0.817 (+/-0.086) for {'n_estimators': 100, 'algorithm': 'SAMME.R', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 0.5}
+0.807 (+/-0.083) for {'n_estimators': 150, 'algorithm': 'SAMME.R', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 0.5}
+0.817 (+/-0.086) for {'n_estimators': 50, 'algorithm': 'SAMME.R', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.0}
+0.818 (+/-0.091) for {'n_estimators': 100, 'algorithm': 'SAMME.R', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.0}
+0.828 (+/-0.096) for {'n_estimators': 150, 'algorithm': 'SAMME.R', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.0}
+0.808 (+/-0.084) for {'n_estimators': 50, 'algorithm': 'SAMME.R', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.5}
+0.828 (+/-0.096) for {'n_estimators': 100, 'algorithm': 'SAMME.R', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.5}
+0.835 (+/-0.101) for {'n_estimators': 150, 'algorithm': 'SAMME.R', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.5}
+0.870 (+/-0.045) for {'n_estimators': 50, 'algorithm': 'SAMME', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 0.5}
+0.860 (+/-0.070) for {'n_estimators': 100, 'algorithm': 'SAMME', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 0.5}
+0.866 (+/-0.067) for {'n_estimators': 150, 'algorithm': 'SAMME', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 0.5}
+0.833 (+/-0.100) for {'n_estimators': 50, 'algorithm': 'SAMME', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.0}
+0.843 (+/-0.080) for {'n_estimators': 100, 'algorithm': 'SAMME', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.0}
+0.842 (+/-0.077) for {'n_estimators': 150, 'algorithm': 'SAMME', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.0}
+0.803 (+/-0.070) for {'n_estimators': 50, 'algorithm': 'SAMME', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.5}
+0.817 (+/-0.082) for {'n_estimators': 100, 'algorithm': 'SAMME', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.5}
+0.825 (+/-0.085) for {'n_estimators': 150, 'algorithm': 'SAMME', 'base_estimator': LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False), 'learning_rate': 1.5}
